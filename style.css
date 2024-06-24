@@ -37,7 +37,7 @@ height: 100%;
 width: 25%;
 color: rgb(16, 16, 93);
 /* background-color: red; */
-font-size: 55px;
+font-size: 25px;
 padding: 50px;
 display: flex;
 gap: 20px;
@@ -56,11 +56,12 @@ width: 40%;
 display: flex;
 margin-left: 5%;
 color: black;
-gap: 50px;
+gap: 40px;
 align-items: center;
 justify-content: center;
-font-size: 25px;
+font-size: 15px;
 font-weight: 700;
+text-transform: capitalize;
 }
 .nav .icons{
 height: 100%;
@@ -69,14 +70,14 @@ width: 40%;
 display: flex;
 align-items: center;
 justify-content: center;
-gap: 60px;
+gap: 30px;
 }
 .nav .icons button{
-    font-size:40px;
+    font-size:22px;
 
 }
 .icons .abc{
-    padding: 10px 20px;
+    padding: 8px 15px;
     background-color: black;
     border-radius: 100px;
     color: white;
@@ -91,7 +92,7 @@ gap: 60px;
     height: 20%;
     width:100%;
     /* background-color: purple; */
-    font-size: 90px;
+    font-size: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,7 +103,7 @@ gap: 60px;
     line-height: 1.2;
 }
 .innerbody .flower{
-    padding: 40px 60px;
+    padding: 25px 40px;
     /* background-color: red; */
     position: absolute;
     top:25%;
@@ -115,7 +116,7 @@ gap: 60px;
     
 }
 .innerbody .flower2{
-    padding: 40px 60px;
+    padding: 28px 30px;
     /* background-color: red; */
     position: absolute;
     top:25%;
@@ -126,7 +127,7 @@ gap: 60px;
     background-size: cover; 
 }
 .innerbody .flower3{
-    padding: 40px 60px;
+    padding: 25px 30px;
     /* background-color: red; */
     position: absolute;
     top:45%;
@@ -166,15 +167,16 @@ gap: 60px;
 }
 .box h1{
     color: rgb(11, 11, 11);
-    font-size: 20px;
-   margin-left:200px ;
+    font-size: 10px;
+   margin-left:150px ;
    font-weight: 600;
+   text-transform: capitalize;
 }
 .box p{
     color: rgb(11, 11, 11);
     text-transform: uppercase;
-    font-size: 35px;
-   margin-left:200px ;
+    font-size: 12px;
+   margin-left:150px ;
    font-weight:700;
 }
 .innerbody .pictures{
@@ -385,7 +387,7 @@ to{
     height: 100%;
     width: 94%;
     background-color: #fff;
-    margin-left:80px;
+    margin-left:41px;
     margin-right: 80px;
 
 }
@@ -541,7 +543,7 @@ to{
     position: relative;
     opacity: 0.4;
     z-index: 1;
-    font-size:400px;
+    font-size:180px;
 }
 #card1 .text{
     width: 25%;
@@ -568,35 +570,35 @@ to{
 }
 .text h3{
     color: black;
-    font-size: 200%;
+    font-size: 90%;
     font-weight: 500;
     margin-bottom: 20px;
 }
 .text h2{
     color: black;
-    font-size: 600%;
+    font-size: 150%;
     font-weight: 700;
     line-height:0.5;
 }
 .text h5{
     color: black;
-    font-size: 400%;
+    font-size: 150%;
     font-weight: 700;
 }
 .text p{
     color: rgb(110, 109, 109);
-    margin-top: 45px;
+    margin-top: 25px;
     line-height: 1;
-    font-size: 35px;
+    font-size: 15px;
     font-weight: 500;
 }
 .text button{
     color: black;
     font-weight: 700;
     margin-top: 5%;
-    padding: 20px 40px;
+    padding: 10px 20px;
     background-color: rgb(9, 170, 245);
-    font-size: 30px;
+    font-size: 15px;
     border-radius: 50px;
 }
 #card1 .pic2{
@@ -632,7 +634,7 @@ to{
     position: relative;
     opacity: 0.4;
     z-index: 1;
-    font-size: 400px;
+    font-size: 180px;
 }
 #card2 .text{
     width: 25%;
@@ -688,7 +690,7 @@ to{
     position: relative;
     opacity: 0.4;
     z-index: 1;
-    font-size: 400px;
+    font-size: 180px;
 }
 #card3 .text{
     width: 25%;
@@ -736,7 +738,7 @@ to{
     position: relative;
     opacity: 0.4;
     z-index: 1;
-    font-size: 400px;
+    font-size: 180px;
 }
 #card4 .text{
     width: 25%;
@@ -795,41 +797,42 @@ to{
     height: 100%;
 }
 #right1 #one{
-    font-size:50px;
+    font-size:25px;
     font-weight: 600;
+    color: #343333;
 }
 #right1 #two{
     margin-top: 18px;
-    font-size:80px;
+    font-size:55px;
     font-weight: 700;
 }
 #right1 #three{
-    font-size:80px;
+    font-size:55px;
     font-weight: 700;
     line-height: 0.6;
 }
 #right1 #four{
-    font-size: 30px;
+    font-size: 15px;
     font-weight: 400;
     margin-top:50px;
-    line-height: 0.9;
+    line-height: 1.2;
 }
 .logos #left button{
-    margin-top: 50px;
-    font-size:50px ;
-    padding: 4px 15px;
+    margin-top: 30px;
+    font-size:20px ;
+    padding: 4px 10px;
     border: 1px solid black;
     border-radius: 50%;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .logos #right button{
-    margin-top: 50px;
-    font-size:50px ;
-    padding: 4px 15px;
+    margin-top: 30px;
+    font-size:20px ;
+    padding: 4px 10px;
     border: 2px solid rgb(223, 15, 15);
     border-radius: 10%;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 .logos #right #fifth{
     background-color:rgb(223, 15, 15) ;
@@ -838,7 +841,7 @@ to{
 .logos{
     display: flex;
     align-items: center;
-    gap: 70px;
+    gap: 50px;
 }
 .last{
     margin-top: 45%;
@@ -853,7 +856,7 @@ to{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 100px;
+    font-size: 45px;
     font-weight: 700;
     text-transform: capitalize;
     text-align: center;
@@ -894,116 +897,92 @@ to{
     border-radius: 50px
 }
 .c1 h1{
-    font-size: 50px;
+    font-size: 20px;
     padding: 30px;
     color: rgb(255, 217, 0);
    
 }
 .c1 h1{
-    font-size: 50px;
+    font-size: 20px;
     padding: 30px;
     color: rgb(255, 217, 0);
    
 }
 .c3 h1{
-    font-size: 50px;
+    font-size: 20px;
     padding: 30px;
     color: rgb(255, 217, 0);
    
 }
 .c4 h1{
-    font-size: 50px;
+    font-size: 20px;
     padding: 30px;
     color: rgb(255, 217, 0);
    
 }
 .c2 h1{
-    font-size: 50px;
+    font-size: 20px;
     padding: 30px;
     color: rgb(255, 217, 0);
    
 }
 .c1 p{
-    font-size: 30px;
+    font-size: 13px;
     padding: 40px;
     font-weight: 500;
 }
 .c2 p{
-    font-size: 30px;
+    font-size: 13px;
     padding: 40px;
     font-weight: 500;
 }
 .c3 p{
-    font-size: 30px;
+    font-size: 13px;
     padding: 40px;
     font-weight: 500;
 }
 .c4 p{
-    font-size: 30px;
+    font-size: 13px;
     padding: 40px;
     font-weight: 500;
 }
 .c1 button{
-    padding: 40px 40px;
+    padding: 20px 20px;
     background: #000;
     border-radius: 100%;
     margin-left: 10%;
-    margin-top: 5%;
+    margin-top: -20%;
     background-image: url(https://images.unsplash.com/photo-1508341591423-4347099e1f19?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-position:center;
     background-size: cover;
 }
 .c2 button{
-    padding: 40px 40px;
+    padding: 20px 20px;
     background: #000;
     border-radius: 100%;
     margin-left: 10%;
-    margin-top: 14%;
+    margin-top: -8%;
     background-image: url(https://images.unsplash.com/photo-1485875437342-9b39470b3d95?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-position:center;
     background-size: cover;
 }
 .c3 button{
-    padding: 40px 40px;
+    padding: 20px 20px;
     background: #000;
     border-radius: 100%;
     margin-left: 10%;
-    margin-top:13%;
+    margin-top:-10%;
     background-image: url(https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWVufGVufDB8fDB8fHww);
     background-position:center;
     background-size: cover;
 }
 .c4 button{
-    padding: 40px 40px;
+    padding: 20px 20px;
     background: #000;
     border-radius: 100%;
     margin-left: 10%;
-    margin-top: 5%;
+    margin-top: -10%;
     background-image: url(https://images.unsplash.com/photo-1481214110143-ed630356e1bb?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d29tZW58ZW58MHx8MHx8fDA%3D);
     background-position:center;
     background-size: cover;
-}
-.c4 h2{
-    font-size: 25px;
-    margin-left: 32%;
-    margin-top: -12%;
-    font-weight: 700;
-}
-.c3 h2{
-    font-size: 25px;
-    margin-left: 32%;
-    margin-top: -12%;
-    font-weight: 700;
-}
-.c2 h2{
-    font-size: 25px;
-    margin-left: 32%;
-    margin-top: -12%;
-    font-weight: 700;
-}
-.c1 h2{
-    font-size: 25px;
-    margin-left: 32%;
-    margin-top: -12%;
-    font-weight: 700;
 }
